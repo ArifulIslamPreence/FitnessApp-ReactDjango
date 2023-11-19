@@ -7,4 +7,4 @@ def DjangoHome(request):
 
 
 def Accounts(request):
-    return render(request, "/registration/login.html")
+    return render(request, 'login.html')
